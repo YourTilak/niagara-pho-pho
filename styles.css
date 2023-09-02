@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.bts-logo {
+    max-width: 80%; /* Adjust the size as needed */
+}
+
+/* Style the square button with rounded corners */
+button {
+    font-size: 24px;
+    width: 150px; /* Adjust the width as needed */
+    padding: 10px 20px;
+    border-radius: 15px; /* Add rounded corners */
+    background-color: #FFD700; /* BTS Gold */
+    color: #000; /* Black text on gold */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FFF; /* White background on hover */
+}
